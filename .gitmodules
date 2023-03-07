@@ -7,4 +7,4 @@
 	path = lib/metamorphic
 	url = https://github.com/0age/metamorphic
 [submodule "lib\\metamorphic"]
-	branch = 0.1.0
+	branch = 55adac1d2487046002fc33a5dff7d669b5419a3a
