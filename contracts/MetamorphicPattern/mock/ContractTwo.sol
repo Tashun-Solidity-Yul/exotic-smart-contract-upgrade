@@ -10,6 +10,11 @@ contract ContractTwo {
 
   uint256 private _x;
 
+
+  function initialize() public {
+    _x = 10;
+  }
+
   /**
    * @dev Payable fallback function that emits an event logging the payment
    */
@@ -26,4 +31,40 @@ contract ContractTwo {
   function test() external view returns (uint256 value) {
     return _x;
   }
+
+  function test9() external view returns (uint256 value) {
+    return _x;
+  }
+
+  function test8() external view returns (uint256 value) {
+    return _x;
+  }
+
+  function test7() external view returns (uint256 value) {
+    return _x;
+  }
+  function test6() external view returns (uint256 value) {
+    return _x;
+  }
+  function test5() external view returns (uint256 value) {
+    return _x;
+  }
+  function test4() external view returns (uint256 value) {
+    return _x;
+  }
+  function test3() external view returns (uint256 value) {
+    return _x;
+  }
+  function test2() external view returns (uint256 value) {
+    return _x;
+  }
+  function test1() external view returns (uint256 value) {
+    return _x;
+  }
+
+
+
+
+
+
 }
